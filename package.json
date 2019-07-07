@@ -1,0 +1,29 @@
+{
+  "name": "mern_shop_app",
+  "version": "1.0.0",
+  "description": "Shopping list built with the MERN stack practice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParmeJon/MERN_shop_app.git"
+  },
+  "author": "parmejon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParmeJon/MERN_shop_app/issues"
+  },
+  "homepage": "https://github.com/ParmeJon/MERN_shop_app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
