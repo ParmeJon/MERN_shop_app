@@ -15,6 +15,14 @@ NodeJS
 - Thank you Traversy Media!
 https://www.youtube.com/watch?v=PBTYxXADG_k
 
+## setup
+create your own .env file with DB_USER and a DB_PASSWORD connected to your mongodb atlas collection. 
+
+npm install
+node run client-install
+node run dev
+
+
 ## additional comments
 
 Fixed a url deprecation warning with:
