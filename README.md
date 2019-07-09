@@ -11,6 +11,7 @@ NodeJS
 - mongoose to interact with database (ODM)
 - dotenv to hide passwords and keys
 - redux to manage state
+- axios for fetching info from backend
 
 ## Followed This Tutorial
 - Thank you Traversy Media!
