@@ -15,7 +15,7 @@ export const getItems = () => dispatch => {
       .catch(err => dispatch(returnErrors(err.response.data, err.response.status)))
 }
 
-export const deleteItem = id => (dispatch, getState ) => {
+export const deleteItem = id => ( dispatch, getState ) => {
   axios
   .delete(`/api/items/${id}`, tokenConfig(getState))
   .then(res => dispatch({
